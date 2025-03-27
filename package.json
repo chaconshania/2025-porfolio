@@ -8,6 +8,6 @@
     "daisyui": "^5.0.9"
   },
   "scripts": {
-    "build": "npm run build"
+    "build": "vite build"
   }
 }
