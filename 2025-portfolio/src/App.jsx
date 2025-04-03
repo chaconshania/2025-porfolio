@@ -8,14 +8,13 @@ import Hero from "../sections/Heros";
 import Footer from "../sections/Footer";
 import SwipeCards from "../components/SwipeCards";
 import CaseStudyCard from "../sections/CaseStudyCard";
-
+import LayoutGrid from "../sections/LayoutGrid";
 function App() {
   return (
     <div>
       <SlideNav />
       <SwipeCards />
-      <CaseStudyCard />
-      <Projects />
+      <LayoutGrid />
       <Footer />
     </div>
   );
