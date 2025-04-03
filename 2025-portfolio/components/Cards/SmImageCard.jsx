@@ -6,9 +6,9 @@ function SmImageCard({ imageUrl, link, alt }) {
       href={link}
       target="_blank"
       rel="noopener noreferrer"
-      className="block transform transition duration-300 hover:scale-105"
+      className="block transform transition duration-300 hover:scale-105 w-full h-full"
     >
-      <div className="bg-neutral-100 rounded-lg shadow-lg">
+      <div className="bg-neutral-100 rounded-lg shadow-lg overflow-hidden w-full h-full">
         <img
           src={imageUrl}
           alt={alt}
