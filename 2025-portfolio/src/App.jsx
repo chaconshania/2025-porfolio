@@ -12,8 +12,9 @@ function App() {
     <div>
       <SlideNav />
       <Title
-        heading="Hello, I'm Shania!"
+        heading={`Hello, I'm Shania!\n I do a little bit of everything...`}
         description="I am a designer or whatever"
+        className="whitespace-pre-line"
       />
       <LayoutGrid />
       <Footer />

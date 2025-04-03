@@ -14,7 +14,7 @@ function LgVideoCard({ imageUrl, videoSrc, link, alt }) {
             autoPlay
             loop
             muted
-            className="w-full h-95 object-cover rounded-lg"
+            className="w-full h-full object-cover rounded-lg"
           >
             <source src={videoSrc} type="video/mp4" />
             Your browser does not support the video tag.
@@ -23,7 +23,7 @@ function LgVideoCard({ imageUrl, videoSrc, link, alt }) {
           <img
             src={imageUrl}
             alt={alt}
-            className="w-full h-48 object-cover rounded-lg"
+            className="w-full h-full object-cover rounded-lg"
           />
         )}
       </div>

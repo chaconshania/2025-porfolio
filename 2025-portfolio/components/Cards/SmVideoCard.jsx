@@ -1,6 +1,6 @@
 import React from "react";
 
-function ImageCard({ imageUrl, videoSrc, link, alt }) {
+function SmVideoCard({ imageUrl, videoSrc, link, alt }) {
   return (
     <a
       href={link}
@@ -14,7 +14,7 @@ function ImageCard({ imageUrl, videoSrc, link, alt }) {
             autoPlay
             loop
             muted
-            className="w-full h-90 object-cover rounded-lg"
+            className="w-full h-full object-cover rounded-lg"
           >
             <source src={videoSrc} type="video/mp4" />
             Your browser does not support the video tag.
@@ -23,7 +23,7 @@ function ImageCard({ imageUrl, videoSrc, link, alt }) {
           <img
             src={imageUrl}
             alt={alt}
-            className="w-full object-cover rounded-lg"
+            className="w-full h-full object-cover rounded-lg"
           />
         )}
       </div>
@@ -31,4 +31,4 @@ function ImageCard({ imageUrl, videoSrc, link, alt }) {
   );
 }
 
-export default ImageCard;
+export default SmVideoCard;
