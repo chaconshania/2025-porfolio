@@ -10,10 +10,10 @@ import Title from "../sections/PageLayout/Title";
 function App() {
   return (
     <div>
-      <SlideNav />
       <Title
-        heading={`Hello, I'm Shania!\n I do a little bit of everything...`}
-        description="I am a designer or whatever"
+        heading="Hello, I'm Shania!"
+        subtitle="Creating is sorta my thing."
+        description="I am a designer or whatever. I am writing out to test out the layout and see how long should I make it."
         className="whitespace-pre-line"
       />
       <LayoutGrid />

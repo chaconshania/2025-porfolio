@@ -21,7 +21,9 @@ function LayoutGrid() {
           alt="Local Video"
         />
       </div>
-      <div className="bg-neutral-100 lg:row-span-2 rounded-lg h-full "></div>
+      <div className="bg-neutral-100 lg:row-span-2 rounded-lg h-full ">
+        <SmImageCard src="../src/assets/Images/ArtsW_Logo_Web.png" />
+      </div>
       <div className="bg-neutral-100 lg:row-span-2 lg:row-start-3 rounded-lg h-full">
         <SmVideoCard
           videoSrc="../src/assets/Videos/FitMix_mockup.mp4"
@@ -31,7 +33,7 @@ function LayoutGrid() {
       </div>
       <div className="bg-neutral-100 lg:row-span-3 lg:col-start-2 lg:row-start-4 rounded-lg h-full">
         <LgVideoCard
-          videoSrc="../src/assets/Videos/OasisXR_mockup.mp4"
+          videoSrc="../src/assets/Videos/AOTR.mp4"
           link=""
           alt="Local Video"
         />
