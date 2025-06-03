@@ -1,15 +1,13 @@
 import React from "react";
-import RevealLinks from "../components/links";
-import VelocityText from "../components/TextScroll";
-import SlideNav from "../components/SlideNavbar";
 import Footer from "../sections/Footer";
-import SwipeCards from "../components/SwipeCards";
 import LayoutGrid from "../sections/LayoutGrid";
 import Title from "../sections/PageLayout/Title";
+import Navbar from "../sections/Navbar";
 
 function App() {
   return (
     <div>
+      <Navbar />
       <Title
         heading="Hello, I'm Shania!"
         subtitle="Creating is sorta my thing."
